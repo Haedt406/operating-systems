@@ -1,15 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+/**
+ *
+ * @author haedt
  */
 
 package com.mycompany.pagingsystem;
 import java.util.Scanner;
 
-/**
- *
- * @author haedt
- */
+
 public class PagingSystem{
     
 
