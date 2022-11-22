@@ -1,5 +1,6 @@
 This is a solution to the producer consumer problem in operating systems
 This is a demonstration of threads working with a mutex to make sure that they dont try to access the same resource at the same time
+I use pthreads in c/c++ for the threads and mutex library for our mutex
 First, we create a linked list that represents our queue that holds jobs
 we have 2 producers and 2 consumers
 The producers, one adds even nodes to the end of the linked list, and the other adds odd nodes to the linked list
