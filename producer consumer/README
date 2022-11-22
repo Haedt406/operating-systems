@@ -1,0 +1,8 @@
+This is a solution to the producer consumer problem in operating systems
+This is a demonstration of threads working with a mutex to make sure that they dont try to access the same resource at the same time
+First, we create a linked list that represents our queue that holds jobs
+we have 2 producers and 2 consumers
+The producers, one adds even nodes to the end of the linked list, and the other adds odd nodes to the linked list
+The consumers, one deletes odd nodes and the other deletes even nodes from the linked list,
+a consumer odd can only delete odd nodes from the beginning of the linked list, so if its even then it will stop and wait
+The 4 producers and consumers can only access the linked list using the mutex
