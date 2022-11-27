@@ -1,0 +1,11 @@
+This program is a implementation of RSA for cryptography. It can generate large numbers and test them for primality using Rabin Miller test, 
+i use the first 500 prime numbers to test agaisnt the randomly generated number, which cuts down significantly on time complexity with numbers larger then 2^1028.
+
+To find the inverse modulo I use extended euclidean algorithm
+
+I am unsure if you can substitute Carmichaels lambda for Eulers Totient, each test works ok, unless I find a d such that e*d = 1 (mod lambda) then e*d mod phi(n) !=  1.
+In the program though you can switch out one for the other.
+
+To be more efficient, it needs a secure hashing function, which I did not implement but may later.
+I also hard coded my own ascii to decimal equivalent table, it makes it easy to actually encrypt a message into integer format as i can control exactly what each ascii
+to decimal is. The only hardcoded things are lowercase characters and space.
