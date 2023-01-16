@@ -1,0 +1,336 @@
+run:
+This program is to demonstrate priority inversion. The time to run one slice is asked every iteration
+
+Enter 1 to run jobs {{1,3},{3,2},{6,3},{8,1},{10,2},{12,3},{26,1}}, these are the main jobs to test with priority inversion
+
+Enter 3 to exit the program: 
+1
+Current run time: 0
+Queue for jobs: 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+T3 333 T3
+Current run time: 1
+Queue for jobs: 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 2, T3 N T3
+Current run time: 2
+Queue for jobs: 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 3
+Queue for jobs: 
+ Job Number: 2 Progress: 10 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 4
+Queue for jobs: 
+ Job Number: 2 Progress: 9 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 5
+Queue for jobs: 
+ Job Number: 2 Progress: 8 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+T3 333 T3
+Current run time: 6
+Queue for jobs: 
+ Job Number: 2 Progress: 7 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 7
+Queue for jobs: 
+ Job Number: 2 Progress: 6 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+PRIORITY INVERSION
+time 8, T2 NNNNN T2
+Current run time: 8
+Queue for jobs: 
+ Job Number: 3 Progress: 1 priority 1 | 
+ Job Number: 1 Progress: 1 priority 1 | 
+ Job Number: 2 Progress: 5 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 9, T3 N T3
+T1 111 T1
+Current run time: 9
+Queue for jobs: 
+ Job Number: 1 Progress: 1 priority 1 | 
+ Job Number: 2 Progress: 5 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 10, T1 Complete
+Current run time: 10
+Queue for jobs: 
+ Job Number: 2 Progress: 5 priority 2 | 
+ Job Number: 2 Progress: 10 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 11
+Queue for jobs: 
+ Job Number: 2 Progress: 4 priority 2 | 
+ Job Number: 2 Progress: 10 priority 2 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+T3 333 T3
+Current run time: 12
+Queue for jobs: 
+ Job Number: 2 Progress: 3 priority 2 | 
+ Job Number: 2 Progress: 10 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 13
+Queue for jobs: 
+ Job Number: 2 Progress: 2 priority 2 | 
+ Job Number: 2 Progress: 10 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 14
+Queue for jobs: 
+ Job Number: 2 Progress: 1 priority 2 | 
+ Job Number: 2 Progress: 10 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 15, T2 IIIII T2
+Current run time: 15
+Queue for jobs: 
+ Job Number: 2 Progress: 10 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 16
+Queue for jobs: 
+ Job Number: 2 Progress: 9 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 17
+Queue for jobs: 
+ Job Number: 2 Progress: 8 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 18
+Queue for jobs: 
+ Job Number: 2 Progress: 7 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 19
+Queue for jobs: 
+ Job Number: 2 Progress: 6 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 20
+Queue for jobs: 
+ Job Number: 2 Progress: 5 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 21
+Queue for jobs: 
+ Job Number: 2 Progress: 4 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 22
+Queue for jobs: 
+ Job Number: 2 Progress: 3 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 23
+Queue for jobs: 
+ Job Number: 2 Progress: 2 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+Current run time: 24
+Queue for jobs: 
+ Job Number: 2 Progress: 1 priority 2 | 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 25, T2 NNNNNNNNNN T2
+Current run time: 25
+Queue for jobs: 
+ Job Number: 3 Progress: 1 priority 3 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 26, T3 N T3
+T1 111 T1
+Current run time: 26
+Queue for jobs: 
+ Job Number: 1 Progress: 1 priority 1 | 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 1
+time 27, T1 Complete
+Current run time: 27
+Queue for jobs: 
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+| empty |
+
+Enter 1 to increment time by 1 or 9 to exit this iteration of priority inversion: 9
+This program is to demonstrate priority inversion. The time to run one slice is asked every iteration
+
+Enter 1 to run jobs {{1,3},{3,2},{6,3},{8,1},{10,2},{12,3},{26,1}}, these are the main jobs to test with priority inversion
+
+Enter 3 to exit the program: 
+3
+BUILD SUCCESSFUL (total time: 56 seconds)
