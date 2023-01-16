@@ -1,0 +1,25 @@
+Parent PID=26639.
+Consumer: Current N=9.
+Consumer: Current N=8.
+Consumer: Current N=7.
+Consumer: Current N=6.
+Consumer: Current N=5.
+Consumer: Current N=4.
+Consumer: Current N=3.
+Consumer: Current N=2.
+Consumer: Current N=1.
+Consumer: Current N=0.
+Underflow!
+Child's child PID=0.
+Produce2: Current N=15.
+Produce2: Current N=20.
+Produce2: Current N=25.
+Overflow!
+Child PID=24363.
+Produce1: Current N=12.
+Produce1: Current N=14.
+Produce1: Current N=16.
+Produce1: Current N=18.
+Produce1: Current N=20.
+Produce1: Current N=22.
+Overflow!
