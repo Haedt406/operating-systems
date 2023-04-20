@@ -4,3 +4,5 @@ process 1 and 3 share a common 'buffer' which is represented by a single array o
 1 has the highest priority, 2 holds the second highest, and 3 holds the least priority
 When 1 or 3 comes into the priority queue for processing, it will take the buffer if its empty
 if the buffer holds 3, and a 1 process comes in, 3 will inherit 1's priority and take over the processor if job 2 is currently being processed
+
+See the PA3.pdf for the instructions on this assignment
