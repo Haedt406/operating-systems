@@ -39,7 +39,6 @@ def generateNum(n, n1):
                 count+=1
                 break
         else:
-            # print("HERE")
             if rabinMiller(possiblePrime) == True:
                 elapsed = time.time()
                 print("Total time: " + str(elapsed - start))
