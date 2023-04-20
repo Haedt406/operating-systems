@@ -10,6 +10,8 @@ To be more efficient, it needs a secure hashing function, which I did not implem
 I also hard coded my own ascii to decimal equivalent table, it makes it easy to actually encrypt a message into integer format as i can control exactly what each ascii
 to decimal is. The only hardcoded things are lowercase characters and space.
 
+When using the Rabin Miller primality test, there is a known number that can cause a false positive for the number being checked as prime.
+This is commented out in the code, when ran without using a small list of known prime numbers to check for primality it accurately identifies the number 294409 as non-prime.
 
 
 the largest prime number I have generated so far is down below with how long it took and numbers tested before this one found. It is 3011 digits long
